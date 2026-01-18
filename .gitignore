@@ -1,0 +1,12 @@
+# Ignore Python temporary files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore MLflow logs (if you decide to use it later)
+mlruns/
+
+# Ignore large data files if you don't want them on GitHub
+# Copy of sonar data.csv
